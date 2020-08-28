@@ -361,6 +361,13 @@ img {
 
 .portfolio__img img {
   border-radius: 0.5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.portfolio__img img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .portfolio__link {
@@ -386,10 +393,11 @@ img {
   transition: 0.3s;
 }
 
+/*
 .portfolio__img:hover .portfolio__link {
   bottom: 0;
 }
-
+*/
 .portfolio__link-name {
   color: var(--dark-color);
 }

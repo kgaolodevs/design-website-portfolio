@@ -310,6 +310,10 @@ img {
 }
 .portfolio__img img {
   border-radius: 0.5rem;
+  transition: 0.5s;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 .portfolio__link {
   position: absolute;
@@ -325,9 +329,11 @@ img {
   backdrop-filter: blur(10px);
   transition: 0.3s;
 }
+/*
 .portfolio__img:hover .portfolio__link {
   bottom: 0;
 }
+*/
 .portfolio__link-name {
   color: var(--dark-color);
 }
